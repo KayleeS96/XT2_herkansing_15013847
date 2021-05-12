@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceX Landing Dashboard</title>
+    <link href="styles/main.css" type="text/css" rel="stylesheet"/>
+    <script src="scripts/main.js"></script>
+    
+</head>    
+
+<body onload="getAPIdata()">
+
+<h1>Landing Info -  SpaceX flight 323</h1>
+
+<main>
+
+<section class="maps">
+<h2>'X' marks the (landing)spot</h2>
+<iframe class="map"
+  style="border:0"
+  allowfullscreen
+  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDUsHz8re6XNMUva8pIT_9xXmunky5oW3w&q=Schiphol,Amsterdam">
+</iframe>
+</section>
+
+<section class="weer">
+<h2>Take the weather with you...</h2>
+<p class="city">AMSTERDAM</p>
+<img src="#" alt="" class="icon"/>
+<div id="weather"></div>
+
+</section><br>
+
+<article>
+  <h3>Hungry like the wolf...?</h3>
+  <img class="food" src="images/food.png" alt="Three various food places in Schiphol Terminal">
+</article>
+
+</main>
+
+<footer>
+    <p class="control"><a class="groundControl" href="https://youtu.be/iYYRH4apXDo">Contact ground control</a></p>
+</footer>
+
+
+</body>    
+
+</html>
